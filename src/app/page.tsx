@@ -49,7 +49,9 @@ export default function Home() {
     // 여기를 채우세요
     // ---
   };
-
+  //---
+  // 심화: 모든 작업을 끝내신 분들은 useEffect를 사용해서, 항상 기본적으로 추가되는 할일들을 자동으로 추가해보세요.
+  //---
   return (
     <div className="flex flex-col items-center min-h-screen p-8">
       <h1 className="text-2xl font-bold mb-6">할일 목록</h1>
